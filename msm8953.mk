@@ -165,6 +165,16 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
+# GPS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@2.0-impl-qti \
+    android.hardware.gnss@2.0-service-qti \
+    libbatching \
+    libgeofencing \
+    libgnss \
+    libsensorndkbridge \
+    libwifi-hal-ctrl
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
