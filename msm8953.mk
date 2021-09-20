@@ -172,6 +172,7 @@ PRODUCT_PACKAGES += \
     libbatching \
     libgeofencing \
     libgnss \
+    libgnsspps \
     libsensorndkbridge \
     libwifi-hal-ctrl
 
